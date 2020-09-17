@@ -2,7 +2,7 @@ body {min-width: 1000px;}
 header { height: 90px; text-align: center;}
 header h1 { position:absolute; left: 56px; top:0; padding: 21px 0 0; }
 header h1 a { display: block; width: 149px; height: 59px; color: transparent;
-  background: url(C:/Users/user/Desktop/frontend/htmlcss/project/image/images/sp_com.png)
+  background: url(../image/images/sp_com.png)
 no-repeat -300px -5px;}
 
 header .lnb li { display: inline-block;}
@@ -29,7 +29,7 @@ header .spot li:last-child a { padding-right: 0;}
   display: block;
   position: absolute;
   top: 50%; width:28px; height:51px; transform: translateY(-50%);
-  background: url(C:/Users/user/Desktop/frontend/htmlcss/project/image/images/sp_com.png) no-repeat;
+  background: url(../image/images/sp_com.png) no-repeat;
   color: transparent
 }
 .visual .prev {
@@ -43,7 +43,7 @@ header .spot li:last-child a { padding-right: 0;}
 .visual .control > div { position: relative; display: inline-block; padding: 0 51px 0 0;}
 .visual .control > div > div { position: absolute; right:0;}
 .visual .control > div > div a { overflow: hidden; display: inline-block; width: 8px; height: 9px;
-background: url(C:/Users/user/Desktop/frontend/htmlcss/project/image/images/sp_com.png) no-repeat;
+background: url(../image/images/sp_com.png) no-repeat;
 }
 .visual .control > div > div a.play { background-position: -108px -72px;}
 .visual .control > div > div a.pause { background-position: -108px -60px; }
@@ -54,7 +54,7 @@ background: url(C:/Users/user/Desktop/frontend/htmlcss/project/image/images/sp_c
 .visual .control a { color: transparent;}
 
 .visual .con div { height: 776px}
-.visual .con .slide {background: url(C:/Users/user/Desktop/frontend/htmlcss/project/image/images/bg_main02.jpg)
+.visual .con .slide {background: url(../image/images//bg_main02.jpg)
   no-repeat; color: #fff;
   background-size: cover;
   background-position: 50% 50%;}
