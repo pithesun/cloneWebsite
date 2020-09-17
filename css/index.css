@@ -1,0 +1,74 @@
+body {min-width: 1000px;}
+header { height: 90px; text-align: center;}
+header h1 { position:absolute; left: 56px; top:0; padding: 21px 0 0; }
+header h1 a { display: block; width: 149px; height: 59px; color: transparent;
+  background: url(C:/Users/user/Desktop/frontend/htmlcss/project/image/images/sp_com.png)
+no-repeat -300px -5px;}
+
+header .lnb li { display: inline-block;}
+header .lnb li a { display:block; height: 90px; padding: 0 35px;
+  font-size: 17px; color: #000;line-height: 90px;}
+header .lnb li a:hover { color: #2d5b79; font-weight: bold;}
+header .lnb li a:after { content: ""; display: block; position: absolute;
+left: 0; bottom:-10px; width: 100%; height: 1px; background: #2d5b79;}
+
+header .spot { position:absolute; right: 67px; top:0;}
+header .spot li { position: relative; float: left;}
+header .spot li:after { content: ""; position: absolute; left: 0;
+top: 50%; width: 2px; height: 10px;
+background: #ccc; transform: translateY(-50%);}
+header .spot li:first-child::after {display: none;}
+header .spot li a { display: block;
+  height: 90px; padding: 0 14px; line-height:  90px;}
+header .spot li:last-child a { padding-right: 0;}
+
+
+.visual { position: relative; padding: 0 57px;}
+.visual .prev,
+.visual .next {
+  display: block;
+  position: absolute;
+  top: 50%; width:28px; height:51px; transform: translateY(-50%);
+  background: url(C:/Users/user/Desktop/frontend/htmlcss/project/image/images/sp_com.png) no-repeat;
+  color: transparent
+}
+.visual .prev {
+  left: 91px; background-position: -128px -60px;
+}
+.visual .next {
+  right: 91px; background-position: -158px -60px;
+}
+
+.visual .control {position: absolute; text-align: center; width: 100%; bottom: 66px;}
+.visual .control > div { position: relative; display: inline-block; padding: 0 51px 0 0;}
+.visual .control > div > div { position: absolute; right:0;}
+.visual .control > div > div a { overflow: hidden; display: inline-block; width: 8px; height: 9px;
+background: url(C:/Users/user/Desktop/frontend/htmlcss/project/image/images/sp_com.png) no-repeat;
+}
+.visual .control > div > div a.play { background-position: -108px -72px;}
+.visual .control > div > div a.pause { background-position: -108px -60px; }
+.visual .control ul { display: inline-block; position: relative; top: -7px; font-size: 0;}
+.visual .control li { display: inline-block; padding: 0 3px;}
+.visual .control li.on a { background: #fff;}
+.visual .control li a { display: block; width: 56px; height: 4px; background: rgba(255,255,255,0.5);}
+.visual .control a { color: transparent;}
+
+.visual .con div { height: 776px}
+.visual .con .slide {background: url(C:/Users/user/Desktop/frontend/htmlcss/project/image/images/bg_main02.jpg)
+  no-repeat; color: #fff;
+  background-size: cover;
+  background-position: 50% 50%;}
+.visual .con .slide p {position: absolute; left: 50%; top: 400px; font-size: 27px; transform: translateX(-50%);}
+.visual .con .slide .txt span {font-size: 32px; font-weight: bold; }
+
+
+
+  /* visual 위에 이미지 넣기
+.visual .con .slide .image {
+  position: absolute;
+  left: 822px; top: -282px;
+  width: 137px; height: 105px;
+  background: url(C:/Users/user/Desktop/frontend/htmlcss/project/image/images/sp_com.png) no-repeat;
+  background-position: 0 -121px;
+  color: transparent;
+}*/
