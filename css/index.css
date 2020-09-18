@@ -1,5 +1,5 @@
-body {min-width: 1000px;}
-header { height: 90px; text-align: center;}
+body {min-width: 1000px; overflow-x: hidden; overflow-y: auto}
+header { height: 81px; text-align: center;}
 header h1 { position:absolute; left: 56px; top:0; padding: 21px 0 0; }
 header h1 a { display: block; width: 149px; height: 59px; color: transparent;
   background: url(../image/images/sp_com.png)
@@ -12,7 +12,7 @@ header .lnb li a:hover { color: #2d5b79; font-weight: bold;}
 header .lnb li a:after { content: ""; display: block; position: absolute;
 left: 0; bottom:-10px; width: 100%; height: 1px; background: #2d5b79;}
 
-header .spot { position:absolute; right: 67px; top:0;}
+header .spot { position:absolute; right: 51px; top:0;}
 header .spot li { position: relative; float: left;}
 header .spot li:after { content: ""; position: absolute; left: 0;
 top: 50%; width: 2px; height: 10px;
@@ -23,7 +23,7 @@ header .spot li a { display: block;
 header .spot li:last-child a { padding-right: 0;}
 
 
-.visual { position: relative; padding: 0 57px;}
+.visual { position: relative; padding: 0 50px;}
 .visual .prev,
 .visual .next {
   display: block;
@@ -53,7 +53,7 @@ background: url(../image/images/sp_com.png) no-repeat;
 .visual .control li a { display: block; width: 56px; height: 4px; background: rgba(255,255,255,0.5);}
 .visual .control a { color: transparent;}
 
-.visual .con div { height: 776px}
+.visual .con div { height: 694px}
 .visual .con .slide {background: url(../image/images//bg_main02.jpg)
   no-repeat; color: #fff;
   background-size: cover;
@@ -61,7 +61,22 @@ background: url(../image/images/sp_com.png) no-repeat;
 .visual .con .slide p {position: absolute; left: 50%; top: 400px; font-size: 27px; transform: translateX(-50%);}
 .visual .con .slide .txt span {font-size: 32px; font-weight: bold; }
 
+.product a {display: block; font-size: 15px; color:#1a1a1a}
+.product a:hover{ color:#264c66; font-weight: bold;}
+.product a:before{ content: ""; display: block; width: 67px; height: 59px;
+margin: 0 0 18px;
+background: url(../image/images/sp_com.png) no-repeat;}
 
+.product ul{padding: 42px 0 41px; text-align: center; font-size: 0}
+.product li{display: inline-block; padding: 0 55px; text-align: center;}
+.product li:nth-child(1) a:before{background-position: -3px -117px;}
+.product li:nth-child(2) a:before{background-position: -74px -117px;}
+.product li:nth-child(3) a:before{background-position: -147px -117px;}
+.product li:nth-child(4) a:before{background-position: -219px -117px;}
+.product li:nth-child(5) a:before{background-position: -290px -117px;}
+.product li:nth-child(6) a:before{background-position: -363px -117px;}
+
+.product li:nth-child(1) a:hover:before{background-position: -3px -117px;}
 
   /* visual 위에 이미지 넣기
 .visual .con .slide .image {
